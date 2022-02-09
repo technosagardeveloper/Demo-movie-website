@@ -1,0 +1,555 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+label{
+color:white;
+font-weight: bold;
+font-size: 50px;
+font-family: cursive;
+  align-items: center;
+  justify-content: center;
+ margin-left: 530px;
+ margin-top: 80px;
+ position: absolute;
+ animation: techno 10s infinite alternate;
+}
+ @keyframes techno {
+
+0%{
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+20%{
+border-radius: 20px;
+font-size: 25px;
+}
+ }
+
+
+body{
+    background-color: black;
+ 
+}
+/* slide part will start here  */
+.slide img{
+width: 40%;
+    display: flex;
+ float: left;
+ position: relative;
+ left: 15px;
+ top:150px;
+ list-style-type: none;
+text-decoration: none;
+} 
+/* button */
+.slide button {
+    position: absolute;
+    display: flexbox;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+font-size: 25px;
+    margin-top:580px ;
+    margin-left: -580px;
+text-align: center;
+justify-content: center;
+list-style-type: none;
+text-decoration: none;
+width: 240px;
+padding: 4px;
+}
+.slide button i{
+    padding: 0px;
+    width: 75px;
+    list-style-type: none;
+    text-decoration: none;
+    color:blue;
+    border: none;
+ background-repeat: no-repeat;
+} 
+.slide a{
+    list-style-type: none;
+text-decoration: none;
+color: black;
+}
+ /* play part code 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+    .play button {
+        position: absolute;
+        display: flexbox;
+        background-color:red;
+        font-size: 20px;
+       font-weight: bold;
+       margin-top: 580px;
+       margin-left: -250px;
+width:230px;
+align-items: center;
+justify-content: center;
+padding:  5px;
+    }
+    .play button i{
+        padding: 4px 4px 4px 2px;
+        list-style-type: none;
+        text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   width: 45px;
+border: none;
+color: yellow;   
+} 
+/* play a */
+    .play a{
+        list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+ 
+/* ...............................................................................
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;..............
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+    /* bar 1 */   
+.bar1{
+justify-content: center;
+ list-style-type: none;
+text-decoration: none;
+ 
+}
+/* bar img  */
+.bar1  img{
+width: 700px;
+margin-top:200px ;
+margin-left: 210px;
+} 
+/* button  */
+.bar1 button{
+    margin-top:20px ;
+    margin-left: 900px;
+text-align: center;
+position: relative;
+justify-content: center;
+width: 220px;
+font-size: 25px;
+background-color: aqua;
+font-weight: bold;
+display: flexbox;
+color: black;
+padding: 4px;
+border: none;
+ 
+}
+.bar1 a{
+    color: black;
+}
+ 
+.bar1 i{
+    list-style-type: none;
+    text-decoration: none;
+color: blue;
+padding: 1px 10px;
+}
+.bar1 a{
+    list-style-type: none;
+    text-decoration:none;
+ 
+}
+ 
+    
+
+/* PLAY BUTTON ON BAR 1 */
+.play1 button {   
+position: relative;
+    background-color:red;
+    font-size: 20px;
+   font-weight: bold;
+ display: flexbox;
+ margin-left: 1199px;
+width:210px;
+top: -40px;
+align-items: center;
+justify-content: center;
+padding:  5px;
+}
+.play1 button i{
+    padding: 4px 4px 4px 2px;
+    list-style-type: none;
+    text-decoration: none;
+align-items: center;
+justify-content: center;
+width: 20px;
+border: none;
+color: yellow;   
+} 
+/* play a */
+.play1 a{
+    list-style-type: none;
+text-decoration: none;
+color:white;
+}
+  
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.bar2{
+    width: 700px;
+    margin-top:50px ;
+    margin-left: 10px;
+    } 
+ /* DOWNLOAD BUTTON */
+ .bar2 button{
+    position: absolute;
+    display: flexbox;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+font-size: 25px;
+    margin-top:450px ;
+    margin-left: -600px;
+text-align: center;
+justify-content: center;
+list-style-type: none;
+text-decoration: none;
+width: 240px;
+padding: 5px;
+list-style-type: none;
+text-decoration: none;
+ }
+
+.bar2 a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.bar2 i{
+    list-style-type: none;
+    text-decoration: none;
+color: blue;
+padding: 1px 10px;
+}
+.bar2 a{
+    list-style-type: none;
+    text-decoration:none;
+ 
+}
+ 
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    /* PLAY BUTTON */
+        .play2 button {   
+            position: absolute;
+                background-color:red;
+                font-size: 20px;
+               font-weight: bold;
+             display: flexbox;
+             margin-left: 409px;
+            width:210px;
+            top: 1170px;
+            align-items: center;
+            justify-content: center;
+            padding:  5px;
+            }
+            .play2 button i{
+                padding: 4px 4px 4px 2px;
+                list-style-type: none;
+                text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            border: none;
+            color: yellow;   
+            } 
+    .play2 a{
+        list-style-type: none;
+        color: wheat;
+        text-decoration: none;
+    }
+ 
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+                                                    BAR3    
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    */
+.bar3 img{
+    width: 700px;
+    margin-top:-490px ;
+    margin-left: 810px;
+position: absolute;
+}
+.bar3 button{
+    position: absolute;
+    display: flex;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+font-size: 20px;
+    margin-top:-20px; 
+  margin-left: 900px;
+text-align: center;
+justify-content: center;
+list-style-type: none;
+text-decoration: none;
+width: 240px;
+padding: 10px;
+list-style-type: none;
+text-decoration: none;
+ }
+.bar3 a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.bar3 i{
+    list-style-type: none;
+    text-decoration: none;
+color: blue;
+padding: 1px 10px;
+}
+.bar3 a{
+    list-style-type: none;
+    text-decoration:none;
+ color: black; 
+}
+ /* PLAY BUTTON  */
+ .play3 button {   
+    position: relative;
+        background-color:red;
+        font-size: 20px;
+       font-weight: bold;
+ display: flex;
+     margin-left: 1280px;
+    width:210px;
+    top:  -20px;
+    align-items: center;
+    justify-content: center;
+    padding:  5px;
+    }
+    .play3 button i{
+        padding: 4px 4px 4px 2px;
+        list-style-type: none;
+        text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    border: none;
+    color: yellow;   
+    } 
+.play3 a{
+list-style-type: none;
+color: wheat;
+text-decoration: none;
+color: black;
+}
+ 
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.bar4 img{
+width: 680px;
+}
+.bar4 button{
+    position: absolute;
+ display: flex;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+font-size: 20px;
+    margin-top:-45px;
+  margin-left: 70px;
+text-align: center;
+justify-content: center;
+list-style-type: none;
+text-decoration: none;
+width: 250px;
+padding: 5px; 
+}
+.bar4 a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.bar4 i{
+    list-style-type: none;
+    text-decoration: none;
+color: blue;
+padding: 1px 10px;
+}
+.bar4 a{
+    list-style-type: none;
+    text-decoration:none;
+    color: black;
+}
+ 
+.play4 button {   
+    position: relative;
+        background-color:red;
+        font-size: 20px;
+       font-weight: bold;
+     display: flexbox;
+     margin-left: 409px;
+    width:210px;
+    top: -50px;
+    align-items: center;
+    justify-content: center;
+    padding:  5px;
+    }
+    .play4 button i{
+        padding: 4px 4px 4px 2px;
+        list-style-type: none;
+        text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    border: none;
+    color: yellow;   
+    } 
+.play4 a{
+list-style-type: none;
+color: wheat;
+text-decoration: none;
+}
+.play4 :hover{
+    border-radius: none;
+}
+
+/* BAR 5 */
+.bar5{
+        width: 600px;
+margin-left: 850px;
+margin-top:-530px ;
+position: absolute;
+    }
+    .bar5 button{
+        position: absolute;
+        display: flexbox;
+        background-color: aqua;
+        color: black;
+        font-weight: bold;
+    font-size: 20px;
+        margin-top:-40px;
+      margin-left: 110px;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    width: 240px;
+    padding: 10px;
+    
+     }
+    .bar5 a{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .bar5 i{
+        list-style-type: none;
+        text-decoration: none;
+    color: blue;
+    padding: 1px 10px;
+    }
+    .bar5 a{
+        list-style-type: none;
+        text-decoration:none;
+     color: black;
+     
+    }
+    /* play button BAR 5 */
+    .play5 button {   
+        position: relative;
+            background-color:red;
+            font-size: 20px;
+           font-weight: bold;
+     display:flex;
+         margin-left: 1300px;
+        
+        width:215px;
+        top:  -80px;
+        align-items: center;
+        justify-content: center;
+        padding:  6px;
+        }
+        .play5 button i{
+            padding: 4px 4px 4px 2px;
+            list-style-type: none;
+            text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        border: none;
+        color: yellow;   
+
+        } 
+        .play5 a{
+            color: white;
+        list-style-type: none;
+        text-decoration: none;
+        }
+/* ALL FUNCTION OF BUTTON AND PLAY  */
+.slide button ,
+.bar1 button ,  
+ .bar2 button , 
+ .bar3 button ,  
+ .bar4 button:hover{
+cursor: pointer;
+transition: none;
+ }
+ .bar1, .bar2, .bar3, .bar4 :hover{
+    transition: none;
+}
+ .play,
+ .play1,
+ .play2,
+ .play3,
+.play4 ,
+:hover
+{
+cursor: pointer;
+transition: none;
+}
+.nav{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+ background-color: wheat;
+    width: 100%;
+    display: block;
+ 
+}
+
+.nav ul{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.nav li{
+list-style-type: none;
+text-decoration: none;
+padding: 19px;
+float: left;
+font-size: 18px;
+color: black;
+}
+.nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.nav li a:hover{
+    border-bottom: 2px solid black;
+    color: red;
+}
+
+.nav span{
+    justify-content: center;
+    text-align: center;
+    width: 65px;
+    position: absolute;
+    margin-left: 290px;
+color: black;
+font-size: 35px; 
+margin-top: 8px;
+background-color:aqua ;
+ border-radius: 40px;
+overflow: hidden;
+}
+.nav a{
+    justify-content: center;
+}
